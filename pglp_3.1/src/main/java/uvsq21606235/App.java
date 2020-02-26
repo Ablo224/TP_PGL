@@ -1,4 +1,4 @@
-package fr.uvsq.21606235;
+package uvsq21606235;
 
 /**
  * Hello world!
