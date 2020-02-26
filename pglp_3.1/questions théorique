@@ -1,0 +1,10 @@
+Exo 3.1:
+1) Cette classe contient de deux responsabilités différente, donc cette classe ne respecte pas le SRP.
+2) Si la methode du CalculSalaire() change, on sera obligé de récompiler tous les programmes utilisant cette methode.
+	Alors que l'affichage des coordonnées par exemple n'est pas concerné.
+3) On viole aussi le SRP, mais en fixant le 5ème principe DIP.
+4) Pour rémanier à ces violations, on pourrait par exemple disoudre les fonctionnalités dans des classe approprié.
+
+
+ 
+
