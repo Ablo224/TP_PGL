@@ -1,15 +1,15 @@
 package uvocp606235;
 
 public class Vendeur extends Employes{
-	
-	public Vendeur(int nbY) {
+	private int commission;
+
+	public Vendeur(int nbY,int c) {
 		super(nbY);
-		// TODO Auto-generated constructor stub
+		this.commission = c;
 	}
 
-	private int commission;
-	
-	public double salaireVendeur()
+	@Override
+	public double calculsalaire()
 	{
 		return super.calculsalaire() + commission;
 	}
