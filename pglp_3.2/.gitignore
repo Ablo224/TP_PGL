@@ -1,1 +1,8 @@
+/bin/
 /target/
+
+.settings
+.project
+.classpath
+.mvn
+
